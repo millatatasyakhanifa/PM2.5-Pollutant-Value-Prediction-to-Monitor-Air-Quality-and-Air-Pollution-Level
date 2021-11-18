@@ -46,6 +46,7 @@ Pada proyek ini juga dilakukan visualisasi nilai PM2.5 selama 30 jam mulai dari 
 Dilihat dari hasil plotnya dapat disimpulkan bahwa di kota Seoul khususnya di Jongno District memiliki kadar PM2.5 di bawah 65 pada pukul 00:00 sampai pukul 08:00 pagi dan mulai naik pada pukul 08:00 dan puncaknya pada pukul 10:00 pagi sampai pukul 13:00 siang dengan kadar PM2.5 di atas 75. Dan pada pukul 14:00 tanggal 01-01-2017 sampai pukul 05:00 tanggal 02-01-2017 kadar PM2.5 menjadi menurun menjadi <=75.
 
 Untuk mengunduh dataset Air Pollution in Seoul dari Kaggle dapat menggunakan link berikut ini: 
+
 7. [kaggle.com](https://www.kaggle.com/bappekim/air-pollution-in-seoul)
 
 ## **4. Data Preparation**
