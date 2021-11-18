@@ -2,10 +2,10 @@
 ## **1. Kesehatan dan Lingkungan**
 Polusi udara merupakan masalah serius yang menyebabkan banyak efek buruk pada kesehatan, lingkungan dan biaya medis[1]. IQAir sebagai platform yang menampilkan kualitas udara dan tingkat polusi udara negara di seluruh dunia menyatakan bahwa Indonesia berada pada peringkat 9 sebagai negara dengan kualitas udara terburuk[2]. Dan menurut IQAir, pada tahun 2021 DKI Jakarta sebagai Ibu Kota negara Indonesia diperkirakan telah terjadi 12,000 kasus kematian dan kerugian sekitar $3,000,000,000 USD yang disebabkan oleh polusi udara. Polutan utama yang yang mencemari udara di Jakarta adalah PM2.5.[3] PM2.5 didefinisikan sebagai partikel udara ambien yang berukuran hingga 2,5 mikron. PM2.5 mencakup berbagai susunan kimia yang berasal dari berbagai sumber. Sumber paling umum yang disebabkan oleh manusia yaitu kendaraan bermotor berbahan bakar fosil, pembangkit listrik, kegiatan industri, pertanian dan pembakaran biomassa. PM2.5 menjadi polutan yang paling berbahaya bagi kesehatan manusia karena ukuran mikroskopisnya memungkinkan partikel-partikel PM2.5 dapat terserap jauh ke dalam aliran darah saat terhirup. Hal ini berpotensi menyebabkan efek kesehatan yang luas seperti asma, kanker paru-paru, dan penyakit jantung. Paparan PM2.5 juga dapat menyebabkan penyakit kardiovaskular, kematian dini dan telah dikaitkan dengan berat badan lahir rendah, peningkatan infeksi saluran pernapasan akut, dan stroke.[4] Melihat dampak negatif yang diberikan oleh polutan PM2.5 sangat besar bagi kesehatan manusia dan lingkungan. Oleh karena itu, agar dapat mengatasi masalah tersebut perlu dilakukan prediksi kadar PM2.5 yang ada di udara untuk memonitor kualitas udara dan tingkat polusi udara pada 30 jam ke depan. Hal ini juga dapat menjadi salah satu upaya untuk mencegah pencemaran udara semakin parah.
 
-[1] [mdpi.com](https://www.mdpi.com/1660-4601/18/13/7087)
-[2] [iqair.com](https://www.iqair.com/id/world-air-quality)
-[3] [iqair.com](https://www.iqair.com/id/indonesia/jakarta)
-[4] [greenpeace.org](https://www.greenpeace.org/static/planet4-indonesia-stateless/2021/03/5e9889e6-2020_world_air_quality_report.pdf)
+1. [mdpi.com](https://www.mdpi.com/1660-4601/18/13/7087)
+2. [iqair.com](https://www.iqair.com/id/world-air-quality)
+3. [iqair.com](https://www.iqair.com/id/indonesia/jakarta)
+4. [greenpeace.org](https://www.greenpeace.org/static/planet4-indonesia-stateless/2021/03/5e9889e6-2020_world_air_quality_report.pdf)
 
 ## **2. Business Understanding**
 ### **2.1 Problem Statements**
@@ -20,8 +20,8 @@ Solusi yang dapat dilakukan untuk menyelesaikan problem statement pada proyek in
 	- LSTM merupakan salah satu jenis arsitektur dari RNN (Recurrent Neural Network). Algoritma ini dapat digunakan untuk menyelesaikan masalah berkaitan dengan time series karena LSTM dapat menyimpan informasi dalam jangka waktu yang lama. Oleh karena itu, ini dapat digunakan untuk memproses, memprediksi, dan mengklasifikasikan berdasarkan data time series.[5]
 	- CNN merupakan algoritma yang dapat digunakan untuk masalah time series. Algoritma ini memiliki keunggulan karena highly noise-resistant dan dapat mengekstrak fitur dan membuat representasi time series yang informatif dan mendalam secara otomatis.[6]
 
-[5] [geeksforgeeks.org](https://www.geeksforgeeks.org/deep-learning-introduction-to-long-short-term-memory/)
-[6] [towardsdatascience.com](https://towardsdatascience.com/how-to-use-convolutional-neural-networks-for-time-series-classification-56b1b0a07a57)
+5. [geeksforgeeks.org](https://www.geeksforgeeks.org/deep-learning-introduction-to-long-short-term-memory/)
+6. [towardsdatascience.com](https://towardsdatascience.com/how-to-use-convolutional-neural-networks-for-time-series-classification-56b1b0a07a57)
 
 ## **3. Data Understanding**
 Dataset yang digunakan pada proyek ini adalah dataset Air Pollution in Seoul yang diunduh dari Kaggle. Dataset ini berisi informasi pengukuran polusi udara di kota Seoul, Korea Selatan. Pada dataset ini terdapat 647511 baris data dan 11 kolom variabel. Adapun variabel-variabel yang terdapat pada dataset Air Pollution in Seoul adalah sebagai berikut:
@@ -46,7 +46,7 @@ Pada proyek ini juga dilakukan visualisasi nilai PM2.5 selama 30 jam mulai dari 
 Dilihat dari hasil plotnya dapat disimpulkan bahwa di kota Seoul khususnya di Jongno District memiliki kadar PM2.5 di bawah 65 pada pukul 00:00 sampai pukul 08:00 pagi dan mulai naik pada pukul 08:00 dan puncaknya pada pukul 10:00 pagi sampai pukul 13:00 siang dengan kadar PM2.5 di atas 75. Dan pada pukul 14:00 tanggal 01-01-2017 sampai pukul 05:00 tanggal 02-01-2017 kadar PM2.5 menjadi menurun menjadi <=75.
 
 Untuk mengunduh dataset Air Pollution in Seoul dari Kaggle dapat menggunakan link berikut ini: 
-[7] [kaggle.com](https://www.kaggle.com/bappekim/air-pollution-in-seoul)
+7. [kaggle.com](https://www.kaggle.com/bappekim/air-pollution-in-seoul)
 
 ## **4. Data Preparation**
 Pada proyek ini dilakukan tahapan-tahapan data preparation sebagai berikut:
@@ -82,7 +82,7 @@ ya  = nilai aktual
 yp = nilai prediksi
 n = jumlah baris data
 
-[8] [c3.ai](https://c3.ai/glossary/data-science/mean-absolute-error/)
+8. [c3.ai](https://c3.ai/glossary/data-science/mean-absolute-error/)
 
 Pada proyek ini MAE dipilih sebagai metrik evaluasi karena MAE umum digunakan untuk mengukur kesalahan perkiraan dari masalah yang berkaitan dengan time series. Selain itu MAE dapat digunakan untuk mengukur seberapa akurat hasil prediksi dengan nilai aslinya. Berikut gambar yang menampilkan hasil plot loss dan MAE dari model LSTM dan model CNN yang dibuat pada proyek ini. 
 
@@ -98,6 +98,6 @@ Ke-4 plot tersebut mengalami penurunan yang signifikan. Di mana loss model LSTM 
 
 Dari hasil di atas dapat dilihat bahwa model CNN menghasilkan nilai MAE dan loss yang lebih kecil dari model LSTM. Sehingga model CNN memiliki kinerja yang bagus dan dapat memprediksi kadar PM2.5 lebih baik dari model LSTM. Berikut gambar yang menampilkan plot nilai actual PM2.5 dan nilai prediksi PM2.5 menggunakan model CNN.
 
-![image](https://drive.google.com/uc?export=view&id=1kalOPdBNhKsOs4V-oNHFhNoa6K4zHZPq)
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/e87a58d06bf817083a95f6e094202dc064c24b8b/PM2.5%20Predict%20vs%20PM2.5%20Actual.JPG)
 
 Dilihat dari plot di atas model yang dibuat pada proyek ini masih perlu dilakukan pengembangan untuk menghasilkan model yang lebih andal dan akurat dalam memprediksi kadar PM2.5. Pengembangan tersebut dapat dilakukan dengan membuat arsitektur model yang lebih kompleks dengan menambahkan layer atau dengan melakukan hyperparameter tuning pada model yang dibuat. 
