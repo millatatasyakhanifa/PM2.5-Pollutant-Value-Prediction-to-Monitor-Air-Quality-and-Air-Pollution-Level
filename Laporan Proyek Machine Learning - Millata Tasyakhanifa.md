@@ -41,7 +41,7 @@ Pada dataset Air Pollution in Seoul tidak ditemukan data yang terduplikat dan se
 
 Pada proyek ini juga dilakukan visualisasi nilai PM2.5 selama 30 jam mulai dari tanggal 01-01-2017 pukul 00:00 sampai tanggal 02-01-2017 pukul 05:00 seperti pada gambar berikut.
 
-![image](https://drive.google.com/uc?export=view&id=1MvAXsLOyVVFSlyJ9LRDuwsBVbij5Uo61)
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/PM2.5%20Visualization.JPG)
 
 Dilihat dari hasil plotnya dapat disimpulkan bahwa di kota Seoul khususnya di Jongno District memiliki kadar PM2.5 di bawah 65 pada pukul 00:00 sampai pukul 08:00 pagi dan mulai naik pada pukul 08:00 dan puncaknya pada pukul 10:00 pagi sampai pukul 13:00 siang dengan kadar PM2.5 di atas 75. Dan pada pukul 14:00 tanggal 01-01-2017 sampai pukul 05:00 tanggal 02-01-2017 kadar PM2.5 menjadi menurun menjadi <=75.
 
@@ -86,14 +86,14 @@ n = jumlah baris data
 
 Pada proyek ini MAE dipilih sebagai metrik evaluasi karena MAE umum digunakan untuk mengukur kesalahan perkiraan dari masalah yang berkaitan dengan time series. Selain itu MAE dapat digunakan untuk mengukur seberapa akurat hasil prediksi dengan nilai aslinya. Berikut gambar yang menampilkan hasil plot loss dan MAE dari model LSTM dan model CNN yang dibuat pada proyek ini. 
 
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/loss%20graph%20of%20lstm%20model.JPG)
 
-![image](https://drive.google.com/uc?export=view&id=1EargqBTgd23macW94vzdbgPa793QL91O)
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/MAE%20graph%20of%20LSTM%20Model.JPG)
 
-![image](https://drive.google.com/uc?export=view&id=1UMMsCwO-hFOA2ZLFoF_CcTzR4vVkplai)
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/loss%20graph%20of%20cnn%20model.JPG)
 
-![image](https://drive.google.com/uc?export=view&id=1aafpfAF4hznkXQUhRTBRWUjCZXN9OG9Q)
+![image](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/MAE%20graph%20of%20CNN%20Model.JPG)
 
-![image](https://drive.google.com/uc?export=view&id=15DwmsCMKw2KwYjgbrnBYsZSwL5mKtnt4)
 Ke-4 plot tersebut mengalami penurunan yang signifikan. Di mana loss model LSTM turun dari  0.0199 sampai 0.0160. Dan MAE model LSTM turun dari 0.1576 sampai 0.1358. Sedangkan untuk model CNN nilai lossnya turun dari 0.0134 sampai 0.0062. Dan nilai MAEnya turun dari 0.1222 sampai 0.0787.
 
 Dari hasil di atas dapat dilihat bahwa model CNN menghasilkan nilai MAE dan loss yang lebih kecil dari model LSTM. Sehingga model CNN memiliki kinerja yang bagus dan dapat memprediksi kadar PM2.5 lebih baik dari model LSTM. Berikut gambar yang menampilkan plot nilai actual PM2.5 dan nilai prediksi PM2.5 menggunakan model CNN.
