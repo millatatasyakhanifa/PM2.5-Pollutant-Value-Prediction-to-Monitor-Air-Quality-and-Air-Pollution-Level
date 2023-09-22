@@ -30,4 +30,5 @@ Metrik evaluasi yang digunakan pada proyek ini adalah Mean Absolute Error (MAE).
 
 ## Kesimpulan
 
-Proyek ini menghasilkan model yang dapat memprediksi kadar PM2.5 untuk memantau kualitas udara dan tingkat polusi udara. Pada proyek ini model CNN memiliki kinerja lebih baik dibandingkan model LSTM. Inforamasi lebih detail mengenai projek ini dapat dibaca pada file https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/Laporan%20Proyek%20Machine%20Learning%20-%20Millata%20Tasyakhanifa.md#laporan-proyek-machine-learning---millata-tasyakhanifa
+Proyek ini menghasilkan model yang dapat memprediksi kadar PM2.5 untuk memantau kualitas udara dan tingkat polusi udara. Pada proyek ini model CNN memiliki kinerja lebih baik dibandingkan model LSTM. Informasi lebih detail mengenai projek ini dapat dibaca pada [Laporan Proyek Machine Learning](https://github.com/millatatasyakhanifa/PM2.5-Pollutant-Value-Prediction-to-Monitor-Air-Quality-and-Air-Pollution-Level/blob/main/Laporan%20Proyek%20Machine%20Learning%20-%20Millata%20Tasyakhanifa.md).
+
