@@ -6,7 +6,7 @@ Polusi udara merupakan masalah serius yang menyebabkan banyak efek buruk pada ke
 
 ## Dataset
 
-Dataset yang digunakan pada proyek ini adalah [Air Pollution in Seoul] (https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul) dari Kaggle. Dataset ini berisi informasi pengukuran polusi udara di Seoul, Korea Selatan, termasuk kadar PM2.5. Dataset ini terdiri dari 647511 baris data dengan 11 kolom variabel yang mencakup tanggal pengukuran, kode stasiun, alamat, lintang, bujur, dan nilai rata-rata polutan lainnya.
+Dataset yang digunakan pada proyek ini adalah [Air Pollution in Seoul](https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul) dari Kaggle. Dataset ini berisi informasi pengukuran polusi udara di Seoul, Korea Selatan, termasuk kadar PM2.5. Dataset ini terdiri dari 647511 baris data dengan 11 kolom variabel yang mencakup tanggal pengukuran, kode stasiun, alamat, lintang, bujur, dan nilai rata-rata polutan lainnya.
 
 ## Data Preparation
 
